@@ -51,3 +51,9 @@ Q.5)Calculate the frequency of each identified unique word in the list - words a
 -------- add below code in above code   
 word_frequency=Counter(words)  
 print(word_frequency)  
+
+Q.6)Create the dictionary frequent_words, which filter words having frequency greater than five from word_frequency.Finally print the dictionary frequent_words.  
+-------- add below code in above code   
+frequent_words=[x[0] for x in word_frequency.items() if x[1]>=5]  
+print(frequent_words)  
+
