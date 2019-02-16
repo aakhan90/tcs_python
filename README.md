@@ -29,7 +29,7 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 '''
-words=zenPython.split()
+words=zenPython.split()   
 print(words)                             
 
 Q.2)Now, remove the flanking characters (such as , . - * ! and space) from each of the word, present in list words.Store the obtained result again in the list words
