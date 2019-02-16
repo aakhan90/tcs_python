@@ -4,7 +4,9 @@ code snippets for tcs python excersises functions and oops
 Q.1)Convert the entire string zenPython into a list of words. Capture the words in the list - words
 
 import re
-from collections import Counter              
+
+from collections import Counter 
+
 zenPython = '''
 The Zen of Python, by Tim Peters
 Beautiful is better than ugly.
