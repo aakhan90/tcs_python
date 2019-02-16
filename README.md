@@ -32,21 +32,22 @@ Namespaces are one honking great idea -- let's do more of those!
 words=zenPython.split()   
 print(words)                             
 
-Q.2)Now, remove the flanking characters (such as , . - * ! and space) from each of the word, present in list words.Store the obtained result again in the list words
--------- add below code in above code
-words=[re.sub('[^a-zA-Z0-9]+', '', _)  for _ in words]
-print(words) 
+Q.2)Now, remove the flanking characters (such as , . - * ! and space) from each of the word, present in list words.Store the obtained result again in the list words  
+-------- add below code in above code   
+words=[re.sub('[^a-zA-Z0-9]+', '', _)  for _ in words]   
+print(words)   
 
-Q.3)Convert all the words of list words to lower case.Store the obtained result again in the list words
--------- add below code in above code
-words=[s.lower() for s in words]
-print(words)
+Q.3)Convert all the words of list words to lower case.Store the obtained result again in the list words  
+-------- add below code in above code   
+words=[s.lower() for s in words]   
+print(words)  
 
-Q.4)Determine the unique set of words from the list words.Store obtained unique words in the list unique_words.
--------- add below code in above code
-unique_words = set(words)
-print(unique_words)
+Q.4)Determine the unique set of words from the list words.Store obtained unique words in the list unique_words.  
+-------- add below code in above code  
+unique_words = set(words)  
+print(unique_words)  
 
-Q.5)Calculate the frequency of each identified unique word in the list - words and store the result in the dictionary word_frequency.
-word_frequency=Counter(words)
-print(word_frequency)
+Q.5)Calculate the frequency of each identified unique word in the list - words and store the result in the dictionary word_frequency.  
+-------- add below code in above code   
+word_frequency=Counter(words)  
+print(word_frequency)  
