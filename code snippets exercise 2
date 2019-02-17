@@ -1,5 +1,5 @@
 # exercises for class,inheritance ,polymorphism,abstraction,encapsulation
-Define the class Point that represents x, y, and z coordinates of 3D coordinate system.  
+q.1)Define the class Point that represents x, y, and z coordinates of 3D coordinate system.  
 Now create an object p1 = Point(4, 2, 9) and print it using the statement print(p1).   
 
 class Point:  
@@ -10,4 +10,17 @@ class Point:
 p1 = Point(4, 2, 9)  
 print(p1.x,p1.y,p1.z)      
 
-                
+q.2)Improvise the class definition of Point such that any Point object is displayed in the format point : (x, y, z).  
+
+class Point:
+    def __init__(self, x, y, z):
+        self.x=x
+        self.y=y
+        self.z=z
+    def __str__(self):
+        return " point:({0} ,{1} ,{2})".format(self.x, self.y, self.z)    
+p1 = Point(4, 2, 9)
+print(p1)
+
+q.3)                  
+                                
