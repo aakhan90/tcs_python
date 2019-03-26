@@ -1,2 +1,1 @@
-# tcs_python
-code snippets for tcs python excersises functions and oops
+solved couple of ecercises from tcs fresco play python functions and oops module 
